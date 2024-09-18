@@ -11,7 +11,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .white
+        
+        let viewController = SignUpHostingViewController(rootView: SignUpView(emailId: "akash.pradhan@mail.com"))
+        
+        navigationController?.pushViewController(viewController, animated: true)
     }
 
 

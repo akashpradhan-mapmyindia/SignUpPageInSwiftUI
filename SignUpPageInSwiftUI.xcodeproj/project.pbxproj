@@ -13,6 +13,8 @@
 		CCB613A22C97FDD300EBAFB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB613A02C97FDD300EBAFB0 /* Main.storyboard */; };
 		CCB613A42C97FDD500EBAFB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB613A32C97FDD500EBAFB0 /* Assets.xcassets */; };
 		CCB613A72C97FDD500EBAFB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB613A52C97FDD500EBAFB0 /* LaunchScreen.storyboard */; };
+		CCB613AF2C97FDF600EBAFB0 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB613AE2C97FDF600EBAFB0 /* SignUpView.swift */; };
+		CCB613B12C97FE1E00EBAFB0 /* SignUpHostingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB613B02C97FE1E00EBAFB0 /* SignUpHostingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CCB613A32C97FDD500EBAFB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCB613A62C97FDD500EBAFB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCB613A82C97FDD500EBAFB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB613AE2C97FDF600EBAFB0 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		CCB613B02C97FE1E00EBAFB0 /* SignUpHostingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpHostingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				CCB6139A2C97FDD300EBAFB0 /* AppDelegate.swift */,
 				CCB6139C2C97FDD300EBAFB0 /* SceneDelegate.swift */,
 				CCB6139E2C97FDD300EBAFB0 /* ViewController.swift */,
+				CCB613B02C97FE1E00EBAFB0 /* SignUpHostingViewController.swift */,
+				CCB613AE2C97FDF600EBAFB0 /* SignUpView.swift */,
 				CCB613A02C97FDD300EBAFB0 /* Main.storyboard */,
 				CCB613A32C97FDD500EBAFB0 /* Assets.xcassets */,
 				CCB613A52C97FDD500EBAFB0 /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCB613B12C97FE1E00EBAFB0 /* SignUpHostingViewController.swift in Sources */,
+				CCB613AF2C97FDF600EBAFB0 /* SignUpView.swift in Sources */,
 				CCB6139F2C97FDD300EBAFB0 /* ViewController.swift in Sources */,
 				CCB6139B2C97FDD300EBAFB0 /* AppDelegate.swift in Sources */,
 				CCB6139D2C97FDD300EBAFB0 /* SceneDelegate.swift in Sources */,
